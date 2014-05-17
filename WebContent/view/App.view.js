@@ -21,6 +21,8 @@ sap.ui.jsview("sap.ui.demo.myFiori.view.App", {
 		var empty = sap.ui.xmlview("Empty", "sap.ui.demo.myFiori.view.Empty");
 		this.app.addPage(empty, false);
 		
+		this.app.setMode(sap.m.SplitAppMode.HideMode)
+		
 		return this.app;
 	}
 });
